@@ -14,7 +14,7 @@ then
     esac
 else
     echo "Homebrew is already installed"
-    stage_1();
+    stage_1()
 fi
 
 function stage_1() {
