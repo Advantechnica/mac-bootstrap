@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-function stage_1() {
+function stage1() {
     # Check if Oh My Zsh is installed and install it if it's not
     if [ ! -d "$HOME/.oh-my-zsh" ]
     then
@@ -59,5 +59,5 @@ then
     esac
 else
     echo "Homebrew is already installed"
-    stage_1
+    stage1
 fi
